@@ -1,0 +1,22 @@
+/* Estilos para el lienzo de Three.js */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+h1, p {
+  color: #fff;
+  font-family: monospace;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  margin-top: 50px;
+}
