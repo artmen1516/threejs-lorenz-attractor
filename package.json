@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dat.gui": "^0.7.9",
+    "parcel": "^2.0.0-nightly.1333",
     "parcel-bundler": "^1.12.5",
     "three": "^0.153.0",
     "three-controls": "^1.0.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
   }
 }

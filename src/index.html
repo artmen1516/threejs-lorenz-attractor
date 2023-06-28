@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorenz simulation</title>
+  <link rel="stylesheet" type="text/css" href="./app.css" />
+</head>
+<body>
+  <div id="container" class="flex flex-col h-screen">
+    <header id="header" class="fixed top-0 left-0 w-full bg-transparent z-10 my-4">
+      <div class="container mx-auto text-center">
+        <h1 class="text-white text-3xl my-2">Lorenz Attractor</h1>
+        <p id="camera-info" class="text-white mx-4"></p>
+      </div>
+    </header>
+    <main id="main" class="flex-1 overflow-hidden">
+      <div class="container mx-auto text-center">
+        <script src="index.js" type="module"></script>
+      </div>
+    </main>
+    <footer id="footer" class="fixed bottom-0 left-0 w-full bg-transparent z-10 my-4">
+      <div class="container mx-auto text-center">
+        <p class="text-white">Created by <a href="https://github.com/artmen1516">artmen1516</a></p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
