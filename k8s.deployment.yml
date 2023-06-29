@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   name: lorenz-deployment
   labels:
-    app: node
+    app: lorenz-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: node
+      app: lorenz-app
   template:
     metadata:
       labels:
-        app: node
+        app: lorenz-app
     spec:
       containers:
-      - name: lorenz
+      - name: lorenz-container
         image: artmen/lorenz:latest
         ports:
         - containerPort: 1234
